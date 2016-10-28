@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Dich</string>
+    <string name="app_name">Information security</string>
+
+    <string name="main_list_1">cdfvghnjkMain_1</string>
+    <string name="main_list_2">cdfvghnjklFirst_1</string>
+
+
+
 </resources>
