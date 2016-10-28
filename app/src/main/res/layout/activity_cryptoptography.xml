@@ -7,6 +7,6 @@
         android:id="@+id/about_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/main_list_1"/>
+        android:text="@string/info_list_1"/>
 
 </ScrollView>
