@@ -2,6 +2,10 @@
     <string name="app_name">Information security</string>
 
     <!-- Main_menu -->
+    <string name="hello">Hello user!</string>
+    <string name="tasks">Tasks</string>
+    <string name="info">Info</string>
+    <string name="about">About</string>
 
     <!-- End_Main_menu -->
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Информацтонная безопасность</string>
+
+    <!-- Main_menu -->
+    <string name="hello">Привет, юзер!!</string>
+    <string name="tasks">Задания</string>
+    <string name="info">Инфа</string>
+    <string name="about">О нас</string>
+
+    <!-- End_Main_menu -->
+
+    <!-- Info_menu -->
+    <string name="info_list_1">cdfvghnjkMain_1</string>
+    <string name="info_list_2">cdfvghnjklFirst_1</string>
+    <!-- End_info_menu -->
+
+
+</resources>
