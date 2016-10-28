@@ -244,3 +244,8 @@ fabric.properties
 # .idea/misc.xml 
 # *.ipr
 
+#hren'
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
