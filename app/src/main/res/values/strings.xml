@@ -28,6 +28,7 @@
     <string name="title_activity_recycler_info">RecyclerInfoActivity</string>
     <string name="title_activity_info">InfoActivity</string>
     <string name="title_activity_tasks">TasksActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
     <!-- End About_menu -->
 
 
