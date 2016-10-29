@@ -9,6 +9,8 @@ import com.whoame.dich.AllDopClasses.Categoryes;
 import java.util.ArrayList;
 import java.util.List;
 
+//Todo посмотреть не устарело ли AppCompatActivity
+
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
