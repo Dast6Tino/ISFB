@@ -4,10 +4,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.support.v7.widget.RecyclerView;
-import com.whoame.dich.AllDopClasses.Categoryes;
-import java.util.ArrayList;
-import java.util.List;
+
+import com.whoame.dich.MenuLinks.AboutActivity;
+import com.whoame.dich.MenuLinks.InfoActivity;
+import com.whoame.dich.MenuLinks.TasksActivity;
 
 //Todo посмотреть не устарело ли AppCompatActivity
 

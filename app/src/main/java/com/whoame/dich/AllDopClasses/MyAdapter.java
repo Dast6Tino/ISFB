@@ -1,4 +1,4 @@
-package com.whoame.dich;
+package com.whoame.dich.AllDopClasses;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,7 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.whoame.dich.AllDopClasses.Categoryes;
+
+import com.whoame.dich.R;
+
 import java.util.List;
 
 /**
