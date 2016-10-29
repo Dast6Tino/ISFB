@@ -44,7 +44,9 @@
         android:text="@string/about"
         android:layout_below="@+id/button_two"
         android:layout_alignLeft="@+id/button_two"
-        android:layout_alignStart="@+id/button_two" />
+        android:layout_alignStart="@+id/button_two"
+        android:onClick="onClick"
+        />
 
 
 
