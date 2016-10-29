@@ -2,6 +2,7 @@
     <string name="app_name">Information security</string>
 
     <!-- Main_menu -->
+
     <string name="hello">Hello $username!</string>
     <string name="tasks">Tasks</string>
     <string name="info">Info</string>
@@ -9,14 +10,8 @@
 
     <!-- End_Main_menu -->
 
-    <!-- Info_menu -->
-
-    <string name="info_list_1">cdfvghnjkMain_1</string>
-    <string name="info_list_2">cdfvghnjklFirst_1</string>
-
-    <!-- End_info_menu -->
-
     <!-- About_menu -->
+
     <string name="about_text">
     У лукоморья дуб зелёный;\n
     Златая цепь на дубе том:\n
@@ -24,12 +19,12 @@
     Всё ходит по цепи кругом;\n
     Идёт <b>направо</b> - песнь заводит,\n
     <b>Налево</b> - сказку говорит.</string>
-    <string name="about_title">О программе</string>
-    <string name="title_activity_recycler_info">RecyclerInfoActivity</string>
-    <string name="title_activity_info">InfoActivity</string>
-    <string name="title_activity_tasks">TasksActivity</string>
-    <string name="title_activity_about">AboutActivity</string>
+
     <!-- End About_menu -->
 
+    <string name="title_activity_recycler_info">RecyclerInfoActivity</string>
+    <string name="title_activity_info">Info</string>
+    <string name="title_activity_tasks">Tasks</string>
+    <string name="title_activity_about">About</string>
 
 </resources>
