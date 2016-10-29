@@ -1,7 +1,9 @@
 package com.whoame.dich;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.support.v7.widget.RecyclerView;
 
 import com.whoame.dich.AllDopClasses.Categoryes;
@@ -25,6 +27,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+=======
+import android.view.View;
+>>>>>>> a5a6ac2add19f6f25bec17a11ad010f979c3e083
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+<<<<<<< HEAD
 
         /* Работа со списком - генерация сохраненных дат в норм список
         * */
@@ -47,4 +53,10 @@ public class MainActivity extends AppCompatActivity {
 
     layoutManager = new LinearLayoutManager(this);
     recyclerView.setLayoutManager(layoutManager);
+=======
+    public void onClick(View view) {
+        Intent intent = new Intent(MainActivity.this, CryptographyActivity.class);
+        startActivity(intent);
+    }
+>>>>>>> a5a6ac2add19f6f25bec17a11ad010f979c3e083
 }
