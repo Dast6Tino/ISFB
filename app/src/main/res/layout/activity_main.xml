@@ -35,7 +35,8 @@
         android:text="@string/info"
         android:layout_below="@+id/button_one"
         android:layout_alignLeft="@+id/button_one"
-        android:layout_alignStart="@+id/button_one" />
+        android:layout_alignStart="@+id/button_one"
+        android:onClick="onInfoClick"/>
 
     <Button
         android:id="@+id/button_three"
@@ -45,7 +46,7 @@
         android:layout_below="@+id/button_two"
         android:layout_alignLeft="@+id/button_two"
         android:layout_alignStart="@+id/button_two"
-        android:onClick="onClick"
+        android:onClick="onAboutClick"
         />
 
 

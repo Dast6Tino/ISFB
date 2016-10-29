@@ -11,14 +11,22 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.CRYPTO"/>
+                <action android:name="android.intent.action.CRYPTO" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".AboutActivity"
-            android:label="@string/about_title">
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about_title"></activity>
+        <activity
+            android:name=".RecyclerInfoActivity"
+            android:label="@string/title_activity_recycler_info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.whoame.dich.MainActivity" />
         </activity>
     </application>
 

@@ -25,6 +25,7 @@
     Идёт <b>направо</b> - песнь заводит,\n
     <b>Налево</b> - сказку говорит.</string>
     <string name="about_title">О программе</string>
+    <string name="title_activity_recycler_info">RecyclerInfoActivity</string>
     <!-- End About_menu -->
 
 
