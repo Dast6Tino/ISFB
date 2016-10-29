@@ -26,6 +26,8 @@
     <b>Налево</b> - сказку говорит.</string>
     <string name="about_title">О программе</string>
     <string name="title_activity_recycler_info">RecyclerInfoActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_tasks">TasksActivity</string>
     <!-- End About_menu -->
 
 
