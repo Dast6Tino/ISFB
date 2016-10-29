@@ -3,7 +3,6 @@ package com.whoame.dich;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 import android.support.v7.widget.RecyclerView;
 import com.whoame.dich.AllDopClasses.Categoryes;
@@ -26,21 +25,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onAboutClick(View view) {
-        Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+    public void onTasksClick(View view) {
+        Intent intent = new Intent(MainActivity.this, TasksActivity.class);
         startActivity(intent);
     }
 
     public void onInfoClick(View view) {
-        /* Работа со списком - генерация сохраненных дат в норм список
-        * */
-        recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
+        Intent intent = new Intent(MainActivity.this, InfoActivity.class);
+        startActivity(intent);
     }
 
-    public void onClick(View view) {
+    public void onAboutClick(View view) {
         Intent intent = new Intent(MainActivity.this, AboutActivity.class);
         startActivity(intent);
     }

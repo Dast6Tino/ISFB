@@ -26,7 +26,8 @@
         android:text="@string/tasks"
         android:layout_below="@+id/title_text_view"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="83dp" />
+        android:layout_marginTop="83dp"
+        android:onClick="onTasksClick"/>
 
     <Button
         android:id="@+id/button_two"
