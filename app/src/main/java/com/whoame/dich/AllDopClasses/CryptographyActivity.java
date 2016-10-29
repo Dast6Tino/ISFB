@@ -1,4 +1,4 @@
-package com.whoame.dich;
+package com.whoame.dich.AllDopClasses;
 
 /**
  * Created by oprv2 on 28.10.2016.
