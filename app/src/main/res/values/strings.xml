@@ -2,18 +2,10 @@
     <string name="app_name">Information security</string>
 
     <!-- Main_menu -->
-<<<<<<< HEAD
     <string name="hello">Hello $username!</string>
     <string name="tasks">Tasks</string>
     <string name="info">Info</string>
     <string name="about">About</string>
-=======
-
-    <string name="menuHello">Hello user!</string>
-    <string name="menuTasks">Tasks</string>
-    <string name="menuInfo">Info</string>
-    <string name="menuAbout">About</string>
->>>>>>> e55e479a384bf19a23c8a73aef62b4d2baf84fa7
 
     <!-- End_Main_menu -->
 

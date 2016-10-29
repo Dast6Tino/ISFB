@@ -14,7 +14,7 @@
         android:id="@+id/title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/menuHello"
+        android:text="@string/hello"
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="#4689C8"
         android:textStyle="bold" />
@@ -23,7 +23,7 @@
         android:id="@+id/button_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/menuTasks"
+        android:text="@string/tasks"
         android:layout_below="@+id/title_text_view"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="83dp" />
@@ -32,7 +32,7 @@
         android:id="@+id/button_two"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/menuInfo"
+        android:text="@string/info"
         android:layout_below="@+id/button_one"
         android:layout_alignLeft="@+id/button_one"
         android:layout_alignStart="@+id/button_one" />
@@ -41,7 +41,7 @@
         android:id="@+id/button_three"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/menuAbout"
+        android:text="@string/about"
         android:layout_below="@+id/button_two"
         android:layout_alignLeft="@+id/button_two"
         android:layout_alignStart="@+id/button_two"

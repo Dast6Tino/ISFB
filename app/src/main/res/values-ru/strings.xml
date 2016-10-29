@@ -3,18 +3,11 @@
     <string name="app_name">Информационная безопасность</string>
 
     <!-- Main_menu -->
-<<<<<<< HEAD
+
     <string name="hello">Привет, $username!</string>
     <string name="tasks">Задания</string>
     <string name="info">Инфа</string>
     <string name="about">О нас</string>
-=======
-
-    <string name="menuHello">Привет юзер!</string>
-    <string name="menuTasks">Задания</string>
-    <string name="menuInfo">Инфа</string>
-    <string name="menuAbout">О нас</string>
->>>>>>> e55e479a384bf19a23c8a73aef62b4d2baf84fa7
 
     <!-- End_Main_menu -->
 
