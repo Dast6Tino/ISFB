@@ -15,6 +15,7 @@ import java.util.List;
 
 public class InfoActivity extends AppCompatActivity {
 
+    //Todo заебашить цикл для наполнения
 
     private RecyclerView myRecyclerView;
     private RecyclerView.Adapter myAdapter;
