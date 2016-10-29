@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/separator"
+    android:dividerPadding="3dp"
     android:orientation="horizontal"
-    android:weightSum="100"
-    android:layout_margin="14dp">
+    android:showDividers="middle"
+    android:layout_margin="14pt">
 
         <ImageView
-            android:layout_width="70pt"
+            android:id="@+id/ic_category"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="30"
+            android:layout_marginRight="2pt"
             android:scaleType="fitStart"
-            android:src="@drawable/ic_launcher1"/>
+            android:src="@mipmap/web"/>
 
         <TextView
-            android:layout_width="30pt"
+            android:id="@+id/name_category"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="70"
-            android:text="77777777777777777777777777777777777"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="3pt"
+            android:text="WEB bliad"
             android:textStyle="bold"
-            android:textSize="20sp" />
+            android:textSize="16pt"/>
 
     </LinearLayout>

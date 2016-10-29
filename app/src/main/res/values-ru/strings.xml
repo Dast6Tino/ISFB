@@ -4,10 +4,10 @@
 
     <!-- Main_menu -->
 
-    <string name="menuHello">Привет юзер!</string>
-    <string name="menuTasks">Задания</string>
-    <string name="menuInfo">Инфа</string>
-    <string name="menuAbout">О нас</string>
+    <string name="hello">Привет, $username!</string>
+    <string name="tasks">Задания</string>
+    <string name="info">Инфа</string>
+    <string name="about">О нас</string>
 
     <!-- End_Main_menu -->
 
@@ -18,5 +18,15 @@
 
     <!-- End_info_menu -->
 
+    <!-- About_menu -->
+    <string name="about_text">
+    У лукоморья дуб зелёный;\n
+    Златая цепь на дубе том:\n
+    И днём и ночью <b>кот учёный</b>\n
+    Всё ходит по цепи кругом;\n
+    Идёт <b>направо</b> - песнь заводит,\n
+    <b>Налево</b> - сказку говорит.</string>
+    <string name="about_title">О программе</string>
+    <!-- End About_menu -->
 
 </resources>
