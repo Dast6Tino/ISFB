@@ -8,34 +8,35 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import com.whoame.dich.AllDopClasses.Categoryes;
+import java.util.ArrayList;
+import java.util.List;
 
 public class InfoActivity extends AppCompatActivity {
+
+
+    private RecyclerView myRecyclerView;
+    private RecyclerView.Adapter myAdapter;
+    private RecyclerView.LayoutManager myLayoutManager;
+
+    List<Categoryes> list = new ArrayList<Categoryes>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //наполнение вьюшек в списке
+        myRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        myLayoutManager = new LinearLayoutManager(this);
+        myRecyclerView.setLayoutManager(myLayoutManager);
+
+        //формирует список вьюшек:
+        myAdapter = new MyAdapter(list, this);
+        myRecyclerView.setAdapter(myAdapter);
     }
-
-    public void SASHA_ISPRAV`_ETO(View view) {
-        /* Работа со списком - генерация сохраненных дат в норм список
-        * */
-        recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-    }
-
 }
