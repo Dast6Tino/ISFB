@@ -1,26 +1,17 @@
 package com.whoame.dich;
 
 import android.content.Context;
-import android.content.Intent;
-import android.media.Image;
-import android.provider.CalendarContract;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.whoame.dich.AllDopClasses.Categoryes;
-import com.whoame.dich.R;
-
 import java.util.List;
-import java.util.Locale;
-
-import static java.lang.String.format;
 
 /**
- * Created by medwedizaa on 19.04.16.
+ * Created by medwedizaa on 29.10.16.
  */
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
@@ -59,10 +50,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
         final Categoryes myCategoryes = myCategoryesArray.get(position);
 
-        //TODO тут возможны ошибки с описанием картинки
-
-        holder.logoCategoryes.setImageResource(Categoryes.getLogoCategoryes());
-        holder.nameCategoryes.setText(Categoryes.getNameCategoryes().toString());
+        //TODO привести к норм виду наполнение картинки
+        holder.logoCategoryes.setImageResource(myCategoryes.getLogoCategoryes().toString());
+        holder.nameCategoryes.setText(myCategoryes.getNameCategoryes().toString());
 
     }
 
