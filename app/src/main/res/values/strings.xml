@@ -22,8 +22,6 @@
 
     <!-- End About_menu -->
 
-    <string name="title_activity_recycler_info">RecyclerInfoActivity</string>
-
     <string name="Category_cryptography">Cryptography</string>
     <string name="Category_web">Web</string>
     <string name="Category_reverse">Reverse</string>
