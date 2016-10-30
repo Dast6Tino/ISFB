@@ -14,14 +14,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginLeft="3pt"
-        android:text="@string/crypto1_textin"
-        android:textStyle="bold"
-        android:textSize="16pt"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:layout_marginLeft="3pt"
         android:text="@string/crypto1_tasks"
         android:textStyle="bold"
         android:textSize="9pt"/>

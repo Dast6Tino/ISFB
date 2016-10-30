@@ -53,7 +53,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             Intent intent = new Intent(context, ContentCategory.class);
             //Toast.makeText(this, nameCategoryes.getText().toString(), Toast.LENGTH_SHORT).show();
 
-            switch (nameCategoryes.getText().toString()) {
+            /*switch (nameCategoryes.getText().toString()) {
                 case "Cryptography":
                     int flag = 0;
                     break;
@@ -64,7 +64,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                     final int flag = 2;
                     break;
 
-            }
+            }*/
 
             context.startActivity(intent);
         }
