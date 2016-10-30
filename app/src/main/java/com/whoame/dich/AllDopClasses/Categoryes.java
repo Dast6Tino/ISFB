@@ -11,6 +11,7 @@ public class Categoryes {
     private int logoCategoryes;
     private String nameCategoryes;
 
+
     public Categoryes(int logoCategoryes, String nameCategoryes) {
         this.logoCategoryes = logoCategoryes;
         this.nameCategoryes = nameCategoryes;
