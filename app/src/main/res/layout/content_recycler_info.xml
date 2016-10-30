@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_marginLeft="2pt"
-        android:text="WEB bliad"
+        android:text="WEB "
         android:textStyle="bold"
         android:textSize="16pt"/>
 
