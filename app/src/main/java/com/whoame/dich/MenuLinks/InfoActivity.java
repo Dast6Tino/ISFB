@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 import com.whoame.dich.AllDopClasses.Categoryes;
 import com.whoame.dich.AllDopClasses.MyAdapter;
@@ -41,6 +42,22 @@ public class InfoActivity extends AppCompatActivity {
         myRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
         myLayoutManager = new LinearLayoutManager(this);
         myRecyclerView.setLayoutManager(myLayoutManager);
+
+        //TODO вот я хз что за context и откуда он - разобраться утром
+        myRecyclerView.addOnItemTouchListener(
+                new RecyclerItemClickListener(context, myRecyclerView ,new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(View view, int position) {
+                        // do whatever
+                    }
+
+                    @Override
+                    public void onLongItemClick(View view, int position) {
+                        // do whatever
+                    }
+                }
+                )
+        );
 
         //формирует список вьюшек:
         myAdapter = new MyAdapter(list, this);
