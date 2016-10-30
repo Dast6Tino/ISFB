@@ -5,4 +5,5 @@ package com.whoame.dich.MenuLinks;
  */
 
 public class ContentCategory {
+    
 }
