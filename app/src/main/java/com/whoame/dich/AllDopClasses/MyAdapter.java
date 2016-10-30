@@ -51,6 +51,21 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent(context, ContentCategory.class);
+            //Toast.makeText(this, nameCategoryes.getText().toString(), Toast.LENGTH_SHORT).show();
+
+            switch (nameCategoryes.getText().toString()) {
+                case "Cryptography":
+                    int flag = 0;
+                    break;
+                case "Web":
+                    int flag = 1;
+                    break;
+                case "Steganography":
+                    final int flag = 2;
+                    break;
+
+            }
+
             context.startActivity(intent);
         }
 
