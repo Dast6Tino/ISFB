@@ -24,7 +24,7 @@ public class InfoActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager myLayoutManager;
 
     //TODO исправить инициализацию с говнокодерской на нормальную
-    List<Categoryes> list = Arrays.asList(new Categoryes(0, "Cryptography"), new Categoryes(0, "Web"), new Categoryes(0, "Steganography"), new Categoryes(0, "Recon"), new Categoryes(0, "Reverse"));
+    List<Categoryes> list = Arrays.asList(new Categoryes(R.mipmap.web, "Cryptography"), new Categoryes(R.mipmap.web, "Cryptography"), new Categoryes(R.mipmap.web, "Cryptography"), new Categoryes(R.mipmap.web, "Web"), new Categoryes(R.mipmap.ic_launcher, "Steganography"), new Categoryes(0, "Recon"), new Categoryes(0, "Reverse"));
 
 
 
