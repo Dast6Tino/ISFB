@@ -13,12 +13,10 @@
     <!-- About_menu -->
 
     <string name="about_text">
-    У лукоморья дуб зелёный;\n
-    Златая цепь на дубе том:\n
-    И днём и ночью <b>кот учёный</b>\n
-    Всё ходит по цепи кругом;\n
-    Идёт <b>направо</b> - песнь заводит,\n
-    <b>Налево</b> - сказку говорит.</string>
+    Multi-guide for information security.\n
+    Special for CTF.
+    Application created by MMCS SFEDU command <b>"WHOAME</b>
+    Hackaton, 2016.</string>
 
     <!-- End About_menu -->
 
