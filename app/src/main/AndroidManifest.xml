@@ -50,7 +50,25 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.whoame.dich.MenuLinks.InfoActivity"/>
         </activity>
-        <activity android:name=".MenuLinks.Links.WebInfoActivity"></activity>
+        <activity android:name=".MenuLinks.Links.WebInfoActivity"/>
+        <activity android:name=".MenuLinks.Tasks.Crypto1TasksActivity"
+            android:label="@string/category_cryptography">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.whoame.dich.MenuLinks.TasksActivity"/>
+        </activity>
+        <activity android:name=".MenuLinks.Tasks.Crypto2TasksActivity"
+            android:label="@string/category_cryptography">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.whoame.dich.MenuLinks.TasksActivity"/>
+        </activity>
+        <activity android:name=".MenuLinks.Tasks.Crypto3TasksActivity"
+            android:label="@string/category_cryptography">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.whoame.dich.MenuLinks.InfoActivity"/>
+        </activity>
     </application>
 
 </manifest>
