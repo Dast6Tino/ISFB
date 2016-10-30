@@ -10,7 +10,9 @@ import com.whoame.dich.AllDopClasses.Categoryes;
 import com.whoame.dich.AllDopClasses.MyAdapter;
 import com.whoame.dich.R;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class InfoActivity extends AppCompatActivity {
@@ -21,7 +23,10 @@ public class InfoActivity extends AppCompatActivity {
     private RecyclerView.Adapter myAdapter;
     private RecyclerView.LayoutManager myLayoutManager;
 
-    List<Categoryes> list = new ArrayList<Categoryes>();
+    //TODO исправить инициализацию с говнокодерской на нормальную
+    List<Categoryes> list = Arrays.asList(new Categoryes(0, "Cryptography"), new Categoryes(0, "Web"), new Categoryes(0, "Steganography"), new Categoryes(0, "Recon"), new Categoryes(0, "Reverse"));
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

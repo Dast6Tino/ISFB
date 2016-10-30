@@ -53,7 +53,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         final Categoryes myCategoryes = myCategoryesArray.get(position);
 
         //TODO привести к норм виду наполнение картинки
-        holder.logoCategoryes.setImageResource(position/*myCategoryes.getLogoCategoryes().toString()*/);
+        holder.logoCategoryes.setImageResource(myCategoryes.getLogoCategoryes());
         holder.nameCategoryes.setText(myCategoryes.getNameCategoryes().toString());
 
     }

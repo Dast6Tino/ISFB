@@ -8,19 +8,19 @@ package com.whoame.dich.AllDopClasses;
 
 public class Categoryes {
 
-    private String logoCategoryes;
+    private int logoCategoryes;
     private String nameCategoryes;
 
-    public Categoryes(String logoCategoryes, String nameCategoryes) {
+    public Categoryes(int logoCategoryes, String nameCategoryes) {
         this.logoCategoryes = logoCategoryes;
         this.nameCategoryes = nameCategoryes;
     }
 
-    public String getLogoCategoryes() { return logoCategoryes; }
+    public int getLogoCategoryes() { return logoCategoryes; }
 
     public String getNameCategoryes() { return nameCategoryes; }
 
-    public void setLogoCategoryes(String logoCategoryes) { this.logoCategoryes = logoCategoryes; }
+    public void setLogoCategoryes(int logoCategoryes) { this.logoCategoryes = logoCategoryes; }
 
     public void setNameCategoryes(String nameCategoryes) { this.nameCategoryes = nameCategoryes; }
 
