@@ -27,6 +27,9 @@
     <string name="category_stego">Steganography</string>
     <string name="label_crypto">Crypto</string>
 
+    <string name="crypto1_tasks">0KfRgtC+LdGC0L4g0Y8g0LTQvtC70LbQtdC9INGC0YPRgiDQvdCw0L/QuNGB0LDRgtGM</string>
+    <string name="crypto1_textin">It`s may be BASE. \nI don`t know.))\n<b>Task:</b></string>
+
     <string name="crypto_base_info">
     <b>Base 16</b>\n
     \n
