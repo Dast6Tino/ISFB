@@ -28,8 +28,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            logoCategoryes = (ImageView) itemView.findViewById(R.id.before_after);
-            nameCategoryes = (TextView) itemView.findViewById(R.id.data);
+            logoCategoryes = (ImageView) itemView.findViewById(R.id.ic_category);
+            nameCategoryes = (TextView) itemView.findViewById(R.id.name_category);
         }
 
     }
@@ -43,7 +43,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
 
-        View view = inflater.inflate(R.layout.content, parent, false);
+        View view = inflater.inflate(R.layout.content_recycler_info, parent, false);
         return new MyViewHolder(view);
     }
 
@@ -53,7 +53,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         final Categoryes myCategoryes = myCategoryesArray.get(position);
 
         //TODO привести к норм виду наполнение картинки
-        holder.logoCategoryes.setImageResource(myCategoryes.getLogoCategoryes().toString());
+        holder.logoCategoryes.setImageResource(position/*myCategoryes.getLogoCategoryes().toString()*/);
         holder.nameCategoryes.setText(myCategoryes.getNameCategoryes().toString());
 
     }
