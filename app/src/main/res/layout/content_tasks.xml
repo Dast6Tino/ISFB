@@ -10,9 +10,15 @@
     android:orientation="vertical"
     tools:context="com.whoame.dich.MenuLinks.TasksActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/my_recycler_view_tasks"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/button_task1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first task"
+        android:layout_below="@+id/title_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:onClick="onTask1Click"/>
 
 </LinearLayout>
