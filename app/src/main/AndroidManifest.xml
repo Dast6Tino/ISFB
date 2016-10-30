@@ -43,15 +43,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.whoame.dich.MainActivity" />
         </activity>
-        <activity
-            android:name=".MenuLinks.InfoLinks.CryptographyInfoActivity"
-            android:label="@string/title_activity_cryptography_info"
-            android:parentActivityName=".MenuLinks.InfoActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.whoame.dich.MenuLinks.InfoActivity" />
-        </activity>
     </application>
 
 </manifest>

@@ -27,6 +27,5 @@
     <string name="title_activity_tasks">Tasks</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_creptography">CreptographyActivity</string>
-    <string name="title_activity_cryptography_info">CryptographyInfoActivity</string>
 
 </resources>
