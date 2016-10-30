@@ -1,5 +1,6 @@
 package com.whoame.dich.MenuLinks;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -9,6 +10,7 @@ import android.view.View;
 
 import com.whoame.dich.AllDopClasses.Categoryes;
 import com.whoame.dich.AllDopClasses.MyAdapter;
+import com.whoame.dich.MainActivity;
 import com.whoame.dich.R;
 
 import java.lang.reflect.Array;
@@ -43,18 +45,14 @@ public class InfoActivity extends AppCompatActivity {
         myLayoutManager = new LinearLayoutManager(this);
         myRecyclerView.setLayoutManager(myLayoutManager);
 
-        //TODO вот я хз что за context и откуда он - разобраться утром
         myRecyclerView.addOnItemTouchListener(
-                new RecyclerItemClickListener(context, myRecyclerView ,new RecyclerItemClickListener.OnItemClickListener() {
+                new RecyclerItemClickListener(this, myRecyclerView ,new RecyclerItemClickListener.OnItemClickListener() {
                     @Override
                     public void onItemClick(View view, int position) {
-                        // do whatever
+                        //Intent intent = new Intent(MainActivity.this, TasksActivity.class);
+                        //startActivity(intent);
                     }
 
-                    @Override
-                    public void onLongItemClick(View view, int position) {
-                        // do whatever
-                    }
                 }
                 )
         );
