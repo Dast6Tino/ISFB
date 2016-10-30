@@ -31,7 +31,7 @@ public class InfoActivity extends AppCompatActivity {
     Context context;
 
     //TODO исправить инициализацию с говнокодерской на нормальную
-    List<Categoryes> list = Arrays.asList(new Categoryes(R.mipmap.web, "Cryptography"), new Categoryes(R.mipmap.web, "Cryptography"), new Categoryes(R.mipmap.web, "Cryptography"), new Categoryes(R.mipmap.web, "Web"), new Categoryes(R.mipmap.ic_launcher, "Steganography"), new Categoryes(0, "Recon"), new Categoryes(0, "Reverse"));
+    List<Categoryes> list = Arrays.asList(new Categoryes(R.mipmap.format_align_right, "Cryptography"), new Categoryes(R.mipmap.web, "Web"), new Categoryes(R.mipmap.format_wrap_tight, "Steganography"), new Categoryes(R.mipmap.magnify, "Recon"), new Categoryes(R.mipmap.replay, "Reverse"));
 
 
 
@@ -56,10 +56,4 @@ public class InfoActivity extends AppCompatActivity {
         myRecyclerView.setAdapter(myAdapter);
     }
 
-
-    @Override
-    public void onClick(final View view) {
-
-
-    }
 }
