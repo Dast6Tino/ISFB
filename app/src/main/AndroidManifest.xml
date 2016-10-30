@@ -70,9 +70,14 @@
             android:label="@string/category_cryptography">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.whoame.dich.MenuLinks.InfoActivity" />
+                android:value="com.whoame.dich.MenuLinks.TasksActivity" />
         </activity>
-        <activity android:name=".MenuLinks.Tasks.Recon.Recon1TasksActivity"></activity>
+        <activity
+            android:name=".MenuLinks.Tasks.Recon.Recon1TasksActivity"
+            android:label="Recon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.whoame.dich.MenuLinks.TasksActivity" /></activity>
 
         <activity
             android:name=".MenuLinks.ContentCategory"

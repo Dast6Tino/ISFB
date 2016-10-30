@@ -21,4 +21,34 @@
         android:layout_marginTop="83dp"
         android:onClick="onTask1Click"/>
 
+    <Button
+        android:id="@+id/button_task2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_crypto"
+        android:layout_below="@+id/title_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:onClick="onTask2Click"/>
+
+    <Button
+        android:id="@+id/button_task3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_crypto"
+        android:layout_below="@+id/title_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:onClick="onTask3Click"/>
+
+    <Button
+        android:id="@+id/button_task4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_recon"
+        android:layout_below="@+id/title_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:onClick="onTask4Click"/>
+
 </LinearLayout>

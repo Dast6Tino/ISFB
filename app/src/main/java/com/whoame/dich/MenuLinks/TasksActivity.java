@@ -7,6 +7,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.whoame.dich.MenuLinks.Tasks.Crypto.Crypto1TasksActivity;
+import com.whoame.dich.MenuLinks.Tasks.Crypto.Crypto2TasksActivity;
+import com.whoame.dich.MenuLinks.Tasks.Crypto.Crypto3TasksActivity;
+import com.whoame.dich.MenuLinks.Tasks.Recon.Recon1TasksActivity;
 import com.whoame.dich.R;
 
 public class TasksActivity extends AppCompatActivity {
@@ -22,10 +25,27 @@ public class TasksActivity extends AppCompatActivity {
 
 
     }
+
     public void onTask1Click(View view) {
         Intent intent = new Intent(TasksActivity.this, Crypto1TasksActivity.class);
         startActivity(intent);
     }
+
+    public void onTask2Click(View view) {
+        Intent intent = new Intent(TasksActivity.this, Crypto2TasksActivity.class);
+        startActivity(intent);
+    }
+
+    public void onTask3Click(View view) {
+        Intent intent = new Intent(TasksActivity.this, Crypto3TasksActivity.class);
+        startActivity(intent);
+    }
+
+    public void onTask4Click(View view) {
+        Intent intent = new Intent(TasksActivity.this, Recon1TasksActivity.class);
+        startActivity(intent);
+    }
+
 
 
 }
