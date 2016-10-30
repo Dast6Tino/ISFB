@@ -73,6 +73,11 @@
                 android:value="com.whoame.dich.MenuLinks.InfoActivity" />
         </activity>
         <activity android:name=".MenuLinks.Tasks.Recon.Recon1TasksActivity"></activity>
+
+        <activity
+            android:name=".MenuLinks.ContentCategory"
+            android:parentActivityName=".MenuLinks.InfoActivity">
+        </activity>
     </application>
 
 </manifest>
