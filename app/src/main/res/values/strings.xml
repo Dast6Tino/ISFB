@@ -22,10 +22,22 @@
 
     <!-- End About_menu -->
 
-<string name="category_cryptography">Cryptography</string>
+    <string name="category_cryptography">Cryptography</string>
     <string name="category_web">Web</string>
     <string name="category_reverse">Reverse</string>
     <string name="category_recon">Recon</string>
     <string name="category_stego">Steganography</string>
+
+    <string name="crypto_cesar_info">
+    Base 16</n>
+    </n>
+    Base 16 - это система счисления по основанию 16, т.е шестнадцатиричная система счисления. С ней вы могли и должны были столкнуться на уроках информатики. Алфавит этой кодировки состоит из цифр (0-9) и букв (A-F). Алгоритм преобразования остается примерно тем же, разве что теперь нам надо исходные двоичные числа разделить на тетрады (группы по 4 бита) и перевести их в соотвествии с таблицой кодировки в символы ASCII.
+    
+    Base 32
+
+    Base 32 использует 32 символа: A-Z (или a-z), 2-7. Может содержать в конце кодированной последовательности несколько спецсимволов (по аналогии с base64). В данном алгоритме преобразования нам необходимо будет разделять двоичные значения на группы по 5 бит.
+
+
+    </string>
 
 </resources>

@@ -44,13 +44,13 @@
                 android:value="com.whoame.dich.MainActivity" />
         </activity>
         <activity
-            android:name=".MenuLinks.InfoLinks.CryptographyInfoActivity"
+            android:name=".MenuLinks.Links.CryptographyInfoActivity"
             android:label="@string/category_cryptography">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.whoame.dich.MenuLinks.InfoActivity"/>
         </activity>
-        <activity android:name=".MenuLinks.InfoLinks.WebInfoActivity"></activity>
+        <activity android:name=".MenuLinks.Links.WebInfoActivity"></activity>
     </application>
 
 </manifest>
