@@ -25,6 +25,7 @@
     <string name="category_reverse">Reverse</string>
     <string name="category_recon">Recon</string>
     <string name="category_stego">Steganography</string>
+    <string name="label_crypto">Crypto</string>
 
     <string name="crypto_base_info">
     <b>Base 16</b>\n
