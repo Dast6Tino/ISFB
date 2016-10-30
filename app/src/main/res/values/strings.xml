@@ -24,10 +24,10 @@
 
     <string name="title_activity_recycler_info">RecyclerInfoActivity</string>
 
-    <string name="Category_cryptography">Cryptography</string>
-    <string name="Category_web">Web</string>
-    <string name="Category_reverse">Reverse</string>
-    <string name="Category_recon">Recon</string>
-    <string name="Category_stego">Steganography</string>
+    <string name="category_cryptography">Cryptography</string>
+    <string name="category_web">Web</string>
+    <string name="category_reverse">Reverse</string>
+    <string name="category_recon">Recon</string>
+    <string name="category_stego">Steganography</string>
 
 </resources>
