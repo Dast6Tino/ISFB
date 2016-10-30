@@ -56,6 +56,6 @@ public class TasksActivity extends AppCompatActivity {
         myAdapter = new MyAdapter(list, this);
         myRecyclerView.setAdapter(myAdapter);
     }
-    }
+
 
 }

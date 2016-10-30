@@ -6,7 +6,7 @@
     android:dividerPadding="3dp"
     android:orientation="horizontal"
     android:showDividers="middle"
-    android:layout_margin="14pt"
+    android:layout_marginTop="15pt"
     >
 
     <ImageView
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginLeft="3pt"
+        android:layout_marginLeft="2pt"
         android:text="WEB bliad"
         android:textStyle="bold"
         android:textSize="16pt"/>

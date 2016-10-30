@@ -1,4 +1,4 @@
-package com.whoame.dich.MenuLinks.InfoLinks;
+package com.whoame.dich.MenuLinks.Links;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
