@@ -43,6 +43,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.whoame.dich.MainActivity" />
         </activity>
+        <activity
+            android:name=".MenuLinks.InfoLinks.CryptographyInfoActivity"
+            android:label="@string/">
+        </activity>
     </application>
 
 </manifest>

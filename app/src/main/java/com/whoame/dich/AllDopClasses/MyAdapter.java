@@ -28,7 +28,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            logoCategoryes = (ImageView) itemView.findViewById(R.id.ic_category);
+            logoCategoryes = (ImageView) itemView.findViewById(R.id.icon_category);
             nameCategoryes = (TextView) itemView.findViewById(R.id.name_category);
         }
 
