@@ -11,6 +11,8 @@ import com.whoame.dich.R;
  * Created by medwedizaa on 30.10.16.
  */
 
+//Активити, которое вызывает статью из выбранной категории
+
 public class ContentCategory  extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

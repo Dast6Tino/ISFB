@@ -23,6 +23,8 @@ import java.util.List;
  * Created by medwedizaa on 29.10.16.
  */
 
+//нужен для RecyclerView - подгружает инфу
+
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     private List<Categoryes> myCategoryesArray;
