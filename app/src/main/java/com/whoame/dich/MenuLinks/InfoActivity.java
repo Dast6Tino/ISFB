@@ -31,7 +31,7 @@ public class InfoActivity extends AppCompatActivity {
     Context context;
 
     //TODO исправить инициализацию с говнокодерской на нормальную
-    List<Categoryes> list = Arrays.asList(new Categoryes(R.mipmap.format_align_right, getResources().getString(R.string.category_cryptography)), new Categoryes(R.mipmap.web, getResources().getString(R.string.category_web)), new Categoryes(R.mipmap.format_wrap_tight, getResources().getString(R.string.category_stego)), new Categoryes(R.mipmap.magnify, getResources().getString(R.string.category_recon)), new Categoryes(R.mipmap.replay, getResources().getString(R.string.category_reverse)));
+    List<Categoryes> list = Arrays.asList(new Categoryes(R.mipmap.format_align_right, "cryptography"), new Categoryes(R.mipmap.web, "web"), new Categoryes(R.mipmap.format_wrap_tight, "stego"), new Categoryes(R.mipmap.magnify, "recon"), new Categoryes(R.mipmap.replay, "reverse"));
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
