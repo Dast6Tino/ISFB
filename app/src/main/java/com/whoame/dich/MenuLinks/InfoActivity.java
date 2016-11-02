@@ -23,6 +23,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//класс который описывает работу активити "инфа"
+
+//Todo заменить recyclerView на cardView
+
 public class InfoActivity extends AppCompatActivity {
 
     private RecyclerView myRecyclerView;

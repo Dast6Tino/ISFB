@@ -9,6 +9,8 @@ import android.view.View;
 
 import com.whoame.dich.R;
 
+//Выводит информацию "о нас"
+
 public class AboutActivity extends AppCompatActivity {
 
     @Override
