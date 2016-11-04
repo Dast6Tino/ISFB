@@ -12,6 +12,8 @@ import com.whoame.dich.MenuLinks.Tasks.Crypto.Crypto3TasksActivity;
 import com.whoame.dich.MenuLinks.Tasks.Recon.Recon1TasksActivity;
 import com.whoame.dich.R;
 
+//описывает работу в "таски"
+
 public class TasksActivity extends AppCompatActivity {
 
     @Override

@@ -4,7 +4,7 @@ package com.whoame.dich.AllDopClasses;
  * Created by medwedizaa on 29.10.16.
  */
 
-//класс который содержит основную информацию о категориях
+//класс который содержит основную информацию о категориях - объекты ReView во вкладке инфа
 
 public class Categoryes {
 
