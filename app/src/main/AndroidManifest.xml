@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.whoame.dich">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:supportsRtl="true"
@@ -77,11 +82,18 @@
             android:label="Recon">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.whoame.dich.MenuLinks.TasksActivity" /></activity>
-
+                android:value="com.whoame.dich.MenuLinks.TasksActivity" />
+        </activity>
         <activity
             android:name=".MenuLinks.ContentCategory"
-            android:parentActivityName=".MenuLinks.InfoActivity">
+            android:parentActivityName=".MenuLinks.InfoActivity" />
+        <activity
+            android:name=".MenuLinks.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.whoame.dich.MainActivity" />
         </activity>
     </application>
 
