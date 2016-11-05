@@ -5,8 +5,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
-
+import android.widget.Button;
+import android.view.View.OnClickListener;
 import com.whoame.dich.MenuLinks.AboutActivity;
 import com.whoame.dich.MenuLinks.InfoActivity;
 import com.whoame.dich.MenuLinks.TasksActivity;
@@ -26,27 +26,49 @@ public class MainActivity extends AppCompatActivity {
 
         dialog.setTitle(getResources().getString(R.string.title_login));
         dialog.setContentView(R.layout.dialog_view);
+
+        final Button button_login = (Button) findViewById(R.id.button_login);
+        final Button button_tasks = (Button) findViewById(R.id.button_tasks);
+        final Button button_info = (Button) findViewById(R.id.button_info);
+        final Button button_about = (Button) findViewById(R.id.button_about);
+
+        OnClickListener button_ = new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switch (view.getId()) {
+                    case R.id.button_login:
+                        dialog.show();
+                        break;
+                    case R.id.button_tasks: {
+                        Intent intent = new Intent(MainActivity.this, TasksActivity.class);
+                        startActivity(intent);
+                        break;
+                    }
+                    case R.id.button_info: {
+                        Intent intent = new Intent(MainActivity.this, InfoActivity.class);
+                        startActivity(intent);
+                        break;
+                    }
+                    case R.id.button_about: {
+                        Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                        startActivity(intent);
+                        break;
+                    }
+                }
+            }
+        };
+
+        button_login.setOnClickListener(button_);
+        button_tasks.setOnClickListener(button_);
+        button_info.setOnClickListener(button_);
+        button_about.setOnClickListener(button_);
     }
 
-    public void onLoginClick(View v)
-    {
-        // Выводим диалоговое окно на экран
-        dialog.show();
-        
+    public void onLoginInClick(View v) {
+
     }
 
-    public void onTasksClick(View view) {
-        Intent intent = new Intent(MainActivity.this, TasksActivity.class);
-        startActivity(intent);
-    }
+    public void onRegistrationClick(View v) {
 
-    public void onInfoClick(View view) {
-        Intent intent = new Intent(MainActivity.this, InfoActivity.class);
-        startActivity(intent);
-    }
-
-    public void onAboutClick(View view) {
-        Intent intent = new Intent(MainActivity.this, AboutActivity.class);
-        startActivity(intent);
     }
 }

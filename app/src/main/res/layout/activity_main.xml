@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:text="@string/title_login"
         android:layout_centerHorizontal="true"
-        android:onClick="onLoginClick"/>
+        android:layout_below="@+id/title_text_view"/>
 
     <Button
         android:id="@+id/button_tasks"
@@ -34,7 +34,7 @@
         android:text="@string/tasks"
         android:layout_below="@+id/button_login"
         android:layout_alignLeft="@+id/button_login"
-        android:onClick="onTasksClick"/>
+        android:layout_alignStart="@+id/button_login"/>
 
     <Button
         android:id="@+id/button_info"
@@ -43,18 +43,16 @@
         android:text="@string/info"
         android:layout_below="@+id/button_tasks"
         android:layout_alignLeft="@+id/button_tasks"
-        android:layout_alignStart="@+id/button_tasks"
-        android:onClick="onInfoClick"/>
+        android:layout_alignStart="@+id/button_tasks"/>
 
     <Button
-        android:id="@+id/button_three"
+        android:id="@+id/button_about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/about"
         android:layout_below="@+id/button_info"
         android:layout_alignLeft="@+id/button_info"
-        android:layout_alignStart="@+id/button_info"
-        android:onClick="onAboutClick"/>
+        android:layout_alignStart="@+id/button_info"/>
 
 
 
