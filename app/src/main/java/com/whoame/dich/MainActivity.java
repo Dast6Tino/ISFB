@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.whoame.dich.MenuLinks.AboutActivity;
 import com.whoame.dich.MenuLinks.InfoActivity;
-import com.whoame.dich.MenuLinks.LoginActivity;
 import com.whoame.dich.MenuLinks.TasksActivity;
 
 //Todo посмотреть не устарело ли AppCompatActivity
@@ -40,11 +39,6 @@ public class MainActivity extends AppCompatActivity {
         // Выводим диалоговое окно на экран
         dialog.show();
     }
-
-    //public void onLoginClick(View view) {
-    //    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-    //   startActivity(intent);
-    //}
 
     public void onTasksClick(View view) {
         Intent intent = new Intent(MainActivity.this, TasksActivity.class);
