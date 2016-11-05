@@ -53,8 +53,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent(context, ContentCategory.class);
-            //Toast.makeText(this, nameCategoryes.getText().toString(), Toast.LENGTH_SHORT).show();
 
+            //Todo запились из бонуса: https://habrahabr.ru/post/258195/ - чтобы обрабатывать разные item
             /*switch (nameCategoryes.getText().toString()) {
                 case "Cryptography":
                     int flag = 0;
