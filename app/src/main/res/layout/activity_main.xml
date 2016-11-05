@@ -23,7 +23,7 @@
         android:id="@+id/button_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="@string/title_login"
         android:layout_centerHorizontal="true"
         android:onClick="onLoginClick"/>
 
@@ -34,7 +34,6 @@
         android:text="@string/tasks"
         android:layout_below="@+id/button_login"
         android:layout_alignLeft="@+id/button_login"
-        android:layout_alignStart="@+id/button_login"
         android:onClick="onTasksClick"/>
 
     <Button

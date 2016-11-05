@@ -24,20 +24,15 @@ public class MainActivity extends AppCompatActivity {
 
         dialog = new Dialog(MainActivity.this);
 
-        // Установите заголовок
-        dialog.setTitle("sss");
-        // Передайте ссылку на разметку
+        dialog.setTitle(getResources().getString(R.string.title_login));
         dialog.setContentView(R.layout.dialog_view);
-        // Найдите элемент TextView внутри вашей разметки
-        // и установите ему соответствующий текст
-        TextView text = (TextView) dialog.findViewById(R.id.dialogTextView);
-        text.setText("Текст в диалоговом окне. Вы любите котов?");
     }
 
     public void onLoginClick(View v)
     {
         // Выводим диалоговое окно на экран
         dialog.show();
+        
     }
 
     public void onTasksClick(View view) {
