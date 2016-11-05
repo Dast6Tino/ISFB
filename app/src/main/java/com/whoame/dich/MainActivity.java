@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         dialog = new Dialog(MainActivity.this);
 
         // Установите заголовок
-        dialog.setTitle("Заголовок диалога");
+        dialog.setTitle("sss");
         // Передайте ссылку на разметку
         dialog.setContentView(R.layout.dialog_view);
         // Найдите элемент TextView внутри вашей разметки
