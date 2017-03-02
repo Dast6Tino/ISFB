@@ -9,18 +9,17 @@
     <string name="about">About</string>
     <string name="title_login">Sign in</string>
     <string name="title_registration">Registration</string>
-    
+
     <!-- End_Main_menu -->
 
-    <!-- About_menu -->
+    <!-- About -->
 
     <string name="about_text">
     Multi-guide for information security.\n
-    Special for CTF.
     Application created by MMCS SFEDU command <b>"WHOAME</b>
-    Hackaton, 2016.</string>
+    </string>
 
-    <!-- End About_menu -->
+    <!-- End About -->
 
     <string name="category_cryptography">Cryptography</string>
     <string name="category_web">Web</string>
@@ -113,7 +112,7 @@
     </string>
 
     <!-- Strings related to login -->
-    <string name="prompt_text">dfghjkl;,kjh gfdsxfcghjnkmlmkhjg</string>
+    <string name="prompt_text">Test</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_login">Login</string>
     <string name="prompt_full_name">Full Name</string>

@@ -1,21 +1,25 @@
 package com.whoame.dich;
 
+import android.app.Activity;
 import android.app.Dialog;
+import android.app.DialogFragment;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
-import com.whoame.dich.MenuLinks.AboutActivity;
+
+import com.whoame.dich.MenuLinks.DialogFragmentAbout;
 import com.whoame.dich.MenuLinks.InfoActivity;
 import com.whoame.dich.MenuLinks.TasksActivity;
 
 //Todo посмотреть не устарело ли AppCompatActivity
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     Dialog dialog;
+    DialogFragment dig;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -50,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     }
                     case R.id.button_about: {
-                        Intent intent = new Intent(MainActivity.this, AboutActivity.class);
-                        startActivity(intent);
+                        dig = new DialogFragmentAbout();
+                        dig.show(getFragmentManager(), "dig");
                         break;
                     }
                 }
