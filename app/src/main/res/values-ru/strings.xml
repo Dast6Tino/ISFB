@@ -14,9 +14,9 @@
     <!-- About_menu -->
     <string name="about_text">
     Мульти-гайд по информационной безопасности.\n
-    Специально для CTF.
-    Приложение созданно коммандой ИММиКН ЮФУ <b>"WHOAME</b>
-    Хакатон, 2016.</string>
+    Приложение созданно коммандой Мехмата ЮФУ <b>"WHOAME</b>
+    </string>
+
     <string name="about_title">О программе</string>
     <!-- End About_menu -->
 
