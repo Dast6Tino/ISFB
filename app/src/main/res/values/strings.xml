@@ -118,5 +118,6 @@
     <string name="prompt_full_name">Full Name</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_password_repeat">Confirm password</string>
+    <string name="about_title">About</string>
 
 </resources>
