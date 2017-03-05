@@ -20,30 +20,12 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/title_login"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/title_text_view"/>
-
-    <Button
-        android:id="@+id/button_tasks"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tasks"
-        android:layout_below="@+id/button_login"
-        android:layout_alignLeft="@+id/button_login"
-        android:layout_alignStart="@+id/button_login"/>
-
-    <Button
         android:id="@+id/button_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/info"
-        android:layout_below="@+id/button_tasks"
-        android:layout_alignLeft="@+id/button_tasks"
-        android:layout_alignStart="@+id/button_tasks"/>
+        android:layout_below="@+id/title_text_view"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/button_about"
@@ -52,6 +34,6 @@
         android:text="@string/about"
         android:layout_below="@+id/button_info"
         android:layout_alignLeft="@+id/button_info"
-        android:layout_alignStart="@+id/button_info"/>
+        android:layout_alignStart="@+id/button_info" />
 
 </RelativeLayout>

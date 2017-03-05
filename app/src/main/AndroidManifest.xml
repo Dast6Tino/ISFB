@@ -30,15 +30,6 @@
                 android:value="com.whoame.dich.MainActivity" />
         </activity>
         <activity
-            android:name=".MenuLinks.TasksActivity"
-            android:label="@string/tasks"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.whoame.dich.MainActivity" />
-        </activity>
-        <activity
             android:name=".MenuLinks.Tasks.Crypto.Crypto1TasksActivity"
             android:label="@string/category_cryptography">
             <meta-data
