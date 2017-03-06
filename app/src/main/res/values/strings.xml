@@ -4,11 +4,8 @@
     <!-- Main_menu -->
 
     <string name="hello">Hello $username!</string>
-    <string name="tasks">Tasks</string>
     <string name="info">Info</string>
     <string name="about">About</string>
-    <string name="title_login">Sign in</string>
-    <string name="title_registration">Registration</string>
 
     <!-- End_Main_menu -->
 
@@ -29,10 +26,6 @@
     <string name="label_crypto">Crypto</string>
     <string name="label_recon">Recon</string>
 
-    <string name="crypto1_tasks">It`s may be BASE. \nI don`t know.)) \n<b>Task:</b> \n0KfRgtC+LdGC0L4g0Y8g0LTQvtC70LbQtdC9INGC0YPRgiDQvdCw0L/QuNGB0LDRgtGM</string>
-    <string name="crypto2_tasks">You like this! \n<b>ACL(T0P_G1FZ_OC1$)</b></string>
-    <string name="recon1_tasks">http://vk.com/id385302312</string>
-
     <string name="crypto_base_info">
     <b>Base 16</b>\n
     \n
@@ -42,10 +35,12 @@
     \n
     Base 32 использует 32 символа: A-Z (или a-z), 2-7. Может содержать в конце кодированной последовательности несколько спецсимволов (по аналогии с base64). В данном алгоритме преобразования нам необходимо будет разделять двоичные значения на группы по 5 бит.\n
     </string>
+
     <string name="crypto_cesar_info">
     <b>Шифр Цезаря</b>, также известный как шифр сдвига, код Цезаря или сдвиг Цезаря — один из самых простых и наиболее широко известных методов шифрования. Шифр Цезаря — это вид шифра подстановки, в котором каждый символ в открытом тексте заменяется символом, находящимся на некотором постоянном числе позиций левее или правее него в алфавите. Например, в шифре со сдвигом вправо на 3, А была бы заменена на Г, Б станет Д, и так далее. Шифр назван в честь римского императора Гая Юлия Цезаря, использовавшего его для секретной переписки со своими генералами.\n
     Шаг шифрования, выполняемый шифром Цезаря, часто включается как часть более сложных схем, таких как шифр Виженера, и все ещё имеет современное приложение в системе ROT13. Как и все моноалфавитные шифры, шифр Цезаря легко взламывается и не имеет практически никакого применения на практике.
     </string>
+
     <string name="crypto_vigener_info">
     <b>Шифр Виженера</b> — метод полиалфавитного шифрования буквенного текста с использованием ключевого слова.\n
     <b>Квадрат Виженера</b>\n
@@ -70,6 +65,7 @@
     1)Поиск длины ключа. Можно анализировать распределение частот в зашифрованном тексте с различным прореживанием. То есть брать текст, включающий каждую 2-ю букву зашифрованного текста, потом каждую 3-ю и т. д. Как только распределение частот букв будет сильно отличаться от равномерного (например, по энтропии), то можно говорить о найденной длине ключа.\n
     2)Криптоанализ. Совокупность l шифров Цезаря (где l — найденная длина ключа), которые по отдельности легко взламываются.\n
     </string>
+
     <string name="crypto_gronsfeld_info">
     <b>Шифр Гронсфельда</b> — полиалфавитный подстановочный шифр создан графом Гронсвельдом (руководителем первой дешифровальной службы Германии) в XVII веке. Шифр можно считать усовершенствованием шифра Цезаря (надежность) и Виженера / Бофора (скорость).\n
     Пусть дан исходный текст: C = «GRONSFELD» и ключ: K = «2015»\n
@@ -110,14 +106,5 @@
     • M += «F» (M = «GRONSFELD»)\n
     Дешифрованный текст (M) — «GRONSFELD»\n
     </string>
-
-    <!-- Strings related to login -->
-    <string name="prompt_text">Test</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_login">Login</string>
-    <string name="prompt_full_name">Full Name</string>
-    <string name="prompt_password">Password</string>
-    <string name="prompt_password_repeat">Confirm password</string>
-    <string name="about_title">About</string>
 
 </resources>

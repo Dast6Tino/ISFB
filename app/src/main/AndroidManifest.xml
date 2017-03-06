@@ -29,34 +29,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.whoame.dich.MainActivity" />
         </activity>
-        <activity
-            android:name=".MenuLinks.Tasks.Crypto.Crypto1TasksActivity"
-            android:label="@string/category_cryptography">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.whoame.dich.MenuLinks.TasksActivity" />
-        </activity>
-        <activity
-            android:name=".MenuLinks.Tasks.Crypto.Crypto2TasksActivity"
-            android:label="@string/category_cryptography">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.whoame.dich.MenuLinks.TasksActivity" />
-        </activity>
-        <activity
-            android:name=".MenuLinks.Tasks.Crypto.Crypto3TasksActivity"
-            android:label="@string/category_cryptography">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.whoame.dich.MenuLinks.TasksActivity" />
-        </activity>
-        <activity
-            android:name=".MenuLinks.Tasks.Recon.Recon1TasksActivity"
-            android:label="Recon">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.whoame.dich.MenuLinks.TasksActivity" />
-        </activity>
         <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data

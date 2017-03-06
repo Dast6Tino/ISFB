@@ -23,7 +23,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button button_login = (Button) findViewById(R.id.button_login);
         final Button button_info = (Button) findViewById(R.id.button_info);
         final Button button_about = (Button) findViewById(R.id.button_about);
 
@@ -45,7 +44,6 @@ public class MainActivity extends Activity {
             }
         };
 
-        button_login.setOnClickListener(button_);
         button_info.setOnClickListener(button_);
         button_about.setOnClickListener(button_);
     }
