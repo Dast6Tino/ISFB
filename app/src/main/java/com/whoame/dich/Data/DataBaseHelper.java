@@ -28,6 +28,7 @@ public class DataBaseHelper extends SQLiteOpenHelper{
     static final String COLUMN_ARTICLE = "article";
 
     private final Context mContext;
+    private SQLiteDatabase myDataBase;
 
     /**
      * Конструктор
@@ -70,7 +71,7 @@ public class DataBaseHelper extends SQLiteOpenHelper{
      * Копирует базу из папки assets заместо созданной локальной БД
      * Выполняется путем копирования потока байтов.
      * */
-    private void copyDataBase() throws IOException {
+    public void copyDataBase() throws IOException {
         InputStream myInput = null;
         OutputStream myOutput = null;
 
@@ -109,16 +110,15 @@ public class DataBaseHelper extends SQLiteOpenHelper{
 
     public void openDataBase() throws SQLException {
         //открываем БД
-        SQLiteDatabase.openDatabase(DB_PATH, null, SQLiteDatabase.OPEN_READONLY);
+        myDataBase = SQLiteDatabase.openDatabase(DB_PATH, null, SQLiteDatabase.OPEN_READONLY);
     }
 
-    //TODO !?!?!??!?!?!?
-    /*@Override
+    @Override
     public synchronized void close() {
         if(myDataBase != null)
             myDataBase.close();
         super.close();
-    }*/
+    }
     // Здесь можно добавить вспомогательные методы для доступа и получения данных из БД
     // вы можете возвращать курсоры через "return myDataBase.query(....)", это облегчит их использование
     // в создании адаптеров для ваших view
